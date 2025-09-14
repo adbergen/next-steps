@@ -15,7 +15,7 @@ export function LoginForm() {
           className="w-full rounded border px-3 py-2"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="m@example.com"
+          placeholder="John.Smith@example.com"
         />
       </div>
       <div>

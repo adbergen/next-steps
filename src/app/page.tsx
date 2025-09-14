@@ -15,13 +15,13 @@ export default function Home() {
         {/* Call to Action */}
         <div className="mt-8 flex justify-center gap-4">
           <Link
-            href="/signup"
+            href="/auth/signup"
             className="rounded-lg bg-black px-5 py-3 text-white dark:bg-white dark:text-black"
           >
             Get Started
           </Link>
           <Link
-            href="/login"
+            href="/auth/login"
             className="rounded-lg border px-5 py-3"
           >
             Login
