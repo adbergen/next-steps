@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import { useState } from "react";
+import { useState } from 'react'
 
 export function LoginForm() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
 
   return (
     <form className="space-y-4">
@@ -34,5 +34,5 @@ export function LoginForm() {
         Login
       </button>
     </form>
-  );
+  )
 }
